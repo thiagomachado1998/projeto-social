@@ -5,20 +5,66 @@ body {
 } 
 
 
+   
+    div.sociais {
+        position: absolute;
 
- section  img {
+
+        max-width: 100px;
+        min-width: 31px;
+
+        top: 3vh;
+        left: 96vw;    
+    }
+   
+
+ .imgsociais {
     display: block;
     height: 35px;
     width: 35px;
-    margin: 15px 8px 15px 0px;
+    margin: 15px 10px 15px 0px;
     border-radius: 50%;
-    text-align: right;
+    
 }
 
-section  img:hover {
-    border: 2px rgba(255, 255, 255, 0.685) solid;
-    box-shadow: 5px 5px 5px black;
-    transform: translate(-10%, -10%);
-    transition: .3s;
+.imgsociais:hover{
+     border: 2px rgba(255, 255, 255, 0.89) solid;
+     box-shadow: 5px 5px 10px black;
+     transition: 0.3s;
+
+     transform: translate(-15%, -15%);
+    }
+
+
+
+
+div.celular {
+    
+    position: relative;
+    width: 95%;
+    padding-top: 90px;
+    
+    
 }
+
+div.celular > .imgcelular {
+    display: block;
+    margin: auto;
+    height: 531px;
+    width: 260px;
+}
+
+div.celular > .celulariframe {
+    position: absolute;
+
+    height: 405px;
+    width: 229px;
+    top: 25%;
+    left: 41%;
+}
+
+
+
+
+
 
