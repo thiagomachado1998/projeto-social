@@ -6,12 +6,12 @@
 }
 
 body,main{
-    background-color: green;
+    background-color: black;
  
 }
 
 main {
-    background: black url("../imagens/fundo-madeira.jpg") no-repeat center center/cover fixed;
+    background: black url("../imagens/papel\ de\ parede.jpg") no-repeat center center/cover fixed;
     width: 100vw;
    height: 100vh;
 }
